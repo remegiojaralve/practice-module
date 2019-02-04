@@ -1,0 +1,15 @@
+.feature {
+  background-color: $color-gray-light;
+  border: 5px solid $base-background-color;
+}
+
+.feature-title {
+  text-align: center;
+  font-size: 30px;
+}
+
+.feature-list-item {
+  width: 300px;
+  list-style: none;
+  display: inline;
+}
