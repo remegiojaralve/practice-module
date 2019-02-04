@@ -1,6 +1,12 @@
 .feature {
   background-color: $color-gray-light;
   border: 5px solid $base-background-color;
+  padding: 20px;
+}
+
+.feature-list {
+  text-align: center;
+  padding: 20px 0px;
 }
 
 .feature-title {
@@ -11,5 +17,7 @@
 .feature-list-item {
   width: 300px;
   list-style: none;
-  display: inline;
+  display: inline-block;
+  padding: 0px 15px;
+  overflow: hidden;
 }

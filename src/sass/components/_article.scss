@@ -1,7 +1,36 @@
-.article {
-  width: 300px;
+.article-link {
+  display: block;
+}
+
+.article-title {
+  font-size: 20px;
+  text-align: left;
+  font-style: italic;
+  color: $base-background-color;
+  padding: 5px 0px;
+
+
+  //modifiers
+  &.article-title-red {
+    color: $color-red;
+  }
+  &.article-title-yellow {
+    color: $color-yellow;
+  }
+  &.article-title-blue {
+    color: $color-blue;
+  }
+}
+
+.article-content {
+  overflow: hidden;
 }
 
 .article-image {
-  width: 280px;
+  width: 300px;
+}
+
+.article-description {
+  text-align: left;
+  color: $base-background-color;
 }
